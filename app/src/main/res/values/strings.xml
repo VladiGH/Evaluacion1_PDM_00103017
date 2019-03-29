@@ -15,4 +15,5 @@
     <string name="usuario">Usuario:</string>
     <string name="contrase_a">Contraseña:</string>
     <string name="total_de_productos">Total de productos:</string>
+    <string name="correo">Correo:</string>
 </resources>

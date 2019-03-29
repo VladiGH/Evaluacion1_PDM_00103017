@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         bindView()
         buttonSend.setOnClickListener(){
             val username = user.text?.toString()
-            val contrasenia = user.text?.toString()
+            val contrasenia = contrasenia.text?.toString()
             contTotal = (contP1 + contP2  + contP3 + contP4 + contP5 + contP6 + contP7 + contP8 + contP9).toString()
             val mIntent:Intent = Intent(this, Main2Activity::class.java)
             mIntent.putExtra("nameKey", username)

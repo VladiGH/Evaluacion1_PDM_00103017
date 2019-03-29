@@ -18,7 +18,7 @@
     android:textSize="18dp"
     android:id="@+id/usuario2"/>
     <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-              android:text="@string/contrase_a"
+              android:text="@string/correo"
               android:textSize="18dp"
               android:id="@+id/contra2"/>
     <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
