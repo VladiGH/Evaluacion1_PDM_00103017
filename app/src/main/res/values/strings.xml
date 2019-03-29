@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Labo Evaluado</string>
+    <string name="contador_de_productos">Contador de productos</string>
+    <string name="send">Send</string>
+    <string name="producto_1">Producto 1</string>
+    <string name="producto_2">Producto 2</string>
+    <string name="producto_3">Producto 3</string>
+    <string name="producto_4">Producto 4</string>
+    <string name="producto_5">Producto 5</string>
+    <string name="producto_6">Producto 6</string>
+    <string name="producto_7">Producto 7</string>
+    <string name="producto_8">Producto 8</string>
+    <string name="producto_9">Producto 9</string>
+    <string name="factura">Factura</string>
+    <string name="usuario">Usuario:</string>
+    <string name="contrase_a">Contraseña:</string>
+    <string name="total_de_productos">Total de productos:</string>
+</resources>

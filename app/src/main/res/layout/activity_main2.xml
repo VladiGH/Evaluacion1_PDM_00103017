@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".Main2Activity">
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/factura"
+              android:textSize="25dp"
+              android:textColor="@color/colorPrimaryDark"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:text="@string/usuario"
+    android:textSize="18dp"
+    android:id="@+id/usuario2"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="@string/contrase_a"
+              android:textSize="18dp"
+              android:id="@+id/contra2"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="@string/total_de_productos"
+              android:textSize="18dp"
+    android:id="@+id/totalShow"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Detalle de productos"
+              android:textSize="25dp"
+              android:textColor="@color/colorPrimaryDark"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="200dp">
+
+        <LinearLayout android:layout_width="125dp" android:layout_height="125dp"
+                      android:orientation="vertical" android:background="@color/colorPrimary">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="@string/producto_1"
+            />
+            <TextView android:id="@+id/p1t"
+                      android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:text="#"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="125dp" android:layout_height="125dp"
+                      android:orientation="vertical" android:background="@color/colorPrimaryDark">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="@string/producto_2"
+
+            />
+            <TextView android:id="@+id/p2t"
+                      android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:text="#"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="125dp" android:layout_height="125dp"
+                      android:orientation="vertical" android:background="@color/colorAccent">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="@string/producto_3"/>
+            <TextView android:id="@+id/p3t"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:text="#"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="150dp">
+        <LinearLayout android:layout_width="125dp" android:layout_height="125dp"
+                      android:orientation="vertical" android:background="@color/colorAccent">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="@string/producto_4"
+            />
+            <TextView android:id="@+id/p4t"
+                      android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:text="#"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="125dp" android:layout_height="125dp"
+                      android:orientation="vertical" android:background="@color/colorPrimary">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="@string/producto_5"
+
+            />
+            <TextView android:id="@+id/p5t"
+                      android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:text="#"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="125dp" android:layout_height="125dp"
+                      android:orientation="vertical" android:background="@color/colorPrimaryDark">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="@string/producto_6"/>
+            <TextView android:id="@+id/p6t"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:text="#"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="150dp">
+
+        <LinearLayout android:layout_width="125dp" android:layout_height="125dp"
+                      android:orientation="vertical" android:background="@color/colorPrimaryDark">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="@string/producto_7"
+            />
+            <TextView android:id="@+id/p7t"
+                      android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:text="#"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="125dp" android:layout_height="125dp"
+                      android:orientation="vertical" android:background="@color/colorAccent">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="@string/producto_8"
+
+            />
+            <TextView android:id="@+id/p8t"
+                      android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:text="#"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="125dp" android:layout_height="125dp"
+                      android:orientation="vertical" android:background="@color/colorPrimary">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="@string/producto_9"/>
+            <TextView android:id="@+id/p9t"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:text="#"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
