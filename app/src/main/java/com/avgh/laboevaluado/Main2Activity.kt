@@ -3,6 +3,7 @@ package com.avgh.laboevaluado
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_main2.*
 import java.lang.Exception
 
@@ -43,6 +44,18 @@ class Main2Activity : AppCompatActivity() {
         p8t.text = p8total
         p9t.text = p9total
 
+        ShareButton.setOnClickListener(){
+            var concat = "Usuario: "+username+"\n\n"+ "Correo: "+ contr+"\n\n"+ "Total de productos: "+ total+
+                    "\n\n"+"Producto 1: "+ p1total + "\n\n"+"Producto 2: "+ p2total +"\n\n"+"Producto 3: "+ p3total + "\n\n"+"Producto 4: "+ p4total +
+                    "\n\n"+"Producto 5: "+ p5total +"\n\n"+"Producto 6: "+ p6total + "\n\n"+"Producto 7: "+ p7total +
+                    "\n\n"+"Producto 8: "+ p8t + "\n\n"+"Producto 9: "+ p9total
+            val intent2: Intent = Intent()
+            intent2.type = "text/plain"
+            intent2.action=Intent.ACTION_SEND
+
+            intent2.putExtra(Intent.EXTRA_TEXT,concat)
+            startActivity(intent2)
+        }
 
     }
 }
